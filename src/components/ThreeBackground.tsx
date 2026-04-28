@@ -31,7 +31,7 @@ export default function ThreeBackground() {
   useEffect(() => {
     const audio = new Audio("/sounds/menu.mp3");
     audio.loop = true;
-    audio.volume = 0.3;
+    audio.volume = 1;
     audioRef.current = audio;
 
     const playAudio = () => { audio.play().catch(() => console.log("Autoplay bloqueado.")); };
