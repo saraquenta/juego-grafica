@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0f172a;
+  --foreground: #f8fafc;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  overflow: hidden; /* Prevent scrolling during gameplay */
+  margin: 0;
+  padding: 0;
+  touch-action: none; /* Prevent pinch-zoom and scroll on mobile when dragging */
+}
